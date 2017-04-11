@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.clr {
+    clear: both;
+}
+
+img {
+    border: 0;
+}
+
+.ful_width {
+    width: 100%;
+}
+
+.wrapper {
+    width: 960px;
+    margin: auto;
+}
+
+.menu {
+    background-color: #02918c;
+}
+
+.menu_left {
+    width: 25%;
+    float: left;
+}
+
+.menu_left a {
+    margin-top: 8px;
+    display: block;
+}
+
+.menu_right {
+    width: 75%;
+    float: left;
+}
+
+.menu_right ul {
+    float: right;
+}
+
+.menu_right ul li {
+    float: left;
+    /*padding: 2px 12px;*/
+}
+
+.menu_right ul li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 13px;
+    display: block;
+    text-transform: uppercase;
+    transition: all .5s;
+    -webkit-trasition: all .5s;
+}
+
+.menu_right ul .active a,
+.menu_right ul li:hover a,
+.menu_right ul li a:focus{
+    color: #fff;
+    background-color: #cfc91d;
+}
+
+
+/*imgbanner part start-->*/
+
+.imgbanner {
+    background: url(../IMG/MYFOLIO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 180px 140px;
+    text-align: center;
+}
+
+
+/*.banner_text {
+    text-align: center;
+}*/
+
+.banner_text h2 {
+    font-size: 50px;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    letter-spacing: 17px;
+}
+
+.banner_text h3 {
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.banner_text p {
+    font-size: 15px;
+    color: #eaebeb;
+}
+
+.banner_text img {
+    padding: 60px 0px;
+}
+
+.banner_text a {
+    font-size: 14px;
+    color: #0b1016;
+    background-color: #cfc91d;
+    text-transform: uppercase;
+    height: 46px;
+    width: 130px;
+    line-height: 46px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+
+/*imgbanner part end-->*/
+
+
+/*ABOUT  ME PART start*/
+
+.about_me {
+    padding: 95px 0px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 40px;
+    color: #02918c;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.about img {
+    padding-bottom: 15px;
+}
+
+.about p {
+    color: #b6babd;
+    font-size: 19px;
+    line-height: 34px;
+    padding-bottom: 85px;
+}
+
+.about p span {
+    font-size: 29px;
+    color: #7e8287;
+    font-weight: bold;
+}
+
+.icon_div {
+    width: 25%;
+    float: left;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border-right: 3px solid #f2f3f3;
+}
+
+.icon_div i {
+    font-size: 30px;
+    color: #2da3a0;
+}
+
+
+/*about me part end*/
+
+
+/* service part start*/
+
+.service_part {
+    background: url(../IMG/laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: inherit;
+    padding: 140px 5px;
+    text-align: left;
+}
+.service{
+    width: 50%;
+}
+.service h2 {
+    font-size: 50px;
+    color: #02918c;
+    font-weight: bold;
+    padding-bottom: 23px;
+}
+
+.service p {
+    font-size: 16px;
+    color: #b5b7b6;
+    line-height: 30px;
+    display: inline-block;
+}
